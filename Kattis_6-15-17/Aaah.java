@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Aaah {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		String ah1 = sc.nextLine();
+		String ah2 = sc.nextLine();
+		
+		if (ah1.length() >= ah2.length()) System.out.println("go");
+		else
+			System.out.println("no");
+		sc.close();
+	}
+
+}
